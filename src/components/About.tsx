@@ -46,7 +46,7 @@ const About: React.FC = () => {
               </p>{" "}
             </div>{" "}
           </div>{" "}
-          <div className="border border-white/20 p-8 hover:border-white/50 transition-all duration-500">
+          <div className="border border-white/20 p-8 hover:border-white/50 transition-all duration-500 text-center">
             {" "}
             <div className="font-courier text-xs space-y-2 opacity-60">
               {" "}
