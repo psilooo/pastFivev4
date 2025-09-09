@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
         
         <div className="font-courier text-xs md:text-sm space-y-1 opacity-60 animate-pulse">
           <p>[ CREATIVE DIRECTION ]</p>
-          <p>[ VISUAL DESIGN ]</p>
+          <p>[ GRAPHIC DESIGN ]</p>
           <p>[ MOTION GRAPHICS ]</p>
           <p>[ WEB DESIGN ]</p>
         </div>
