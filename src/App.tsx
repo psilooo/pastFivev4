@@ -512,31 +512,37 @@ function App() {
             </h2>
             
             {/* Badlands Event */}
-            <EventSection
-              title="BADLANDS"
-              media={badlandsMedia}
-              onMediaClick={handleMediaClick}
-              onTitleClick={() => handleEventClick('badlands')}
-              isExpanded={expandedEvent === 'badlands'}
-            />
+            <div className="relative z-[10050]">
+              <EventSection
+                title="BADLANDS"
+                media={badlandsMedia}
+                onMediaClick={handleMediaClick}
+                onTitleClick={() => handleEventClick('badlands')}
+                isExpanded={expandedEvent === 'badlands'}
+              />
+            </div>
             
             {/* Chasing Summer Day 1 */}
-            <EventSection
-              title="CHASING SUMMER DAY 1"
-              media={chasingSummerDay1Media}
-              onMediaClick={handleMediaClick}
-              onTitleClick={() => handleEventClick('cs-day1')}
-              isExpanded={expandedEvent === 'cs-day1'}
-            />
+            <div className="relative z-[10050]">
+              <EventSection
+                title="CHASING SUMMER DAY 1"
+                media={chasingSummerDay1Media}
+                onMediaClick={handleMediaClick}
+                onTitleClick={() => handleEventClick('cs-day1')}
+                isExpanded={expandedEvent === 'cs-day1'}
+              />
+            </div>
             
             {/* Chasing Summer Day 2 */}
-            <EventSection
-              title="CHASING SUMMER DAY 2"
-              media={chasingSummerDay2Media}
-              onMediaClick={handleMediaClick}
-              onTitleClick={() => handleEventClick('cs-day2')}
-              isExpanded={expandedEvent === 'cs-day2'}
-            />
+            <div className="relative z-[10050]">
+              <EventSection
+                title="CHASING SUMMER DAY 2"
+                media={chasingSummerDay2Media}
+                onMediaClick={handleMediaClick}
+                onTitleClick={() => handleEventClick('cs-day2')}
+                isExpanded={expandedEvent === 'cs-day2'}
+              />
+            </div>
           </div>
         </section>
       )}
