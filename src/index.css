@@ -272,6 +272,11 @@
     z-index: -2;
     mix-blend-mode: exclusion;
   }
+
+  .overlay-exempt {
+  position: relative; /* creates a positioned element so z-index applies */
+  z-index: 10050;     /* higher than .grain (9999) and .scanlines (9998) */
+  }
   
   .grain {
     position: fixed;
