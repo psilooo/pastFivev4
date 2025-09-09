@@ -552,7 +552,7 @@ function App() {
 
       {/* Media Viewer Modal */}
       {selectedMedia && (
-        <div className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-[10051] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4">
           <button
             onClick={handleClose}
             className="absolute top-8 right-8 p-3 border border-white/20 hover:bg-white hover:text-black transition-all duration-300"
