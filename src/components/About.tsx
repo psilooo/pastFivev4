@@ -14,7 +14,7 @@ const About: React.FC = () => {
         </h2>{" "}
         <div className="space-y-8">
           {" "}
-          <div className="border border-white/20 p-8 hover:border-white/50 transition-all duration-500 group">
+          <div className="border border-white/20 p-8 hover:border-white/50 transition-all duration-500 group text-center">
             {" "}
             <p className="font-courier text-sm md:text-base leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity">
               {" "}
