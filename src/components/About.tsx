@@ -46,9 +46,9 @@ const About: React.FC = () => {
               </p>{" "}
             </div>{" "}
           </div>{" "}
-          <div className="border border-white/20 p-8 hover:border-white/50 transition-all duration-500 text-center">
+          <div className="border border-white/20 p-8 hover:border-white/50 transition-all duration-500 items-center justify-center">
             {" "}
-            <div className="font-courier text-xs space-y-2 opacity-60">
+            <div className="font-courier text-xs space-y-2 opacity-60 test-center">
               {" "}
               <p>[ ESTABLISHED: 2024 ]</p> <p>[ COLLABORATIONS: WORLDWIDE ]</p>{" "}
               <p>[ STYLE: EXPERIMENTAL / MINIMALIST ]</p>{" "}
