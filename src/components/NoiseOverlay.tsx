@@ -3,8 +3,8 @@ import React from 'react';
 const NoiseOverlay: React.FC = () => {
   return (
     <>
-      <div className="grain" />
-      <div className="scanlines" />
+      <div className="grain" aria-hidden="true" />
+      <div className="scanlines" aria-hidden="true" />
     </>
   );
 };
